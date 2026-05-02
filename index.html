@@ -1653,14 +1653,14 @@
       console.log('🚀 ===== เริ่มต้นระบบ (GitHub Pages) =====');
 
       // ตรวจสอบว่าตั้งค่า URL แล้วหรือยัง
-      if (GAS_WEB_APP_URL === 'YOUR_DEPLOYED_GAS_WEB_APP_URL_HERE') {
-        Swal.fire({
-          icon: 'warning',
-          title: 'ยังไม่ได้ตั้งค่า!',
-          html: '<p>กรุณาตั้งค่า <code>GAS_WEB_APP_URL</code> ในไฟล์ index.html</p><p>ให้เป็น URL ของ Google Apps Script Web App ที่ deploy แล้ว</p>',
-          confirmButtonText: 'ตกลง'
-        });
-      }
+      // if (GAS_WEB_APP_URL === 'YOUR_DEPLOYED_GAS_WEB_APP_URL_HERE') {
+      //   Swal.fire({
+      //     icon: 'warning',
+      //     title: 'ยังไม่ได้ตั้งค่า!',
+      //     html: '<p>กรุณาตั้งค่า <code>GAS_WEB_APP_URL</code> ในไฟล์ index.html</p><p>ให้เป็น URL ของ Google Apps Script Web App ที่ deploy แล้ว</p>',
+      //     confirmButtonText: 'ตกลง'
+      //   });
+      // }
 
       try {
         initDOMElements();
